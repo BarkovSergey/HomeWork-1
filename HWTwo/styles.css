@@ -1,0 +1,148 @@
+body,html {
+    margin: 0;
+    padding: 0;
+
+}
+.header, .content, .footer{
+    height: 200px;
+    width: 99.70%;
+    background-color: #ff69b4;
+    min-width: 360px;
+    border: 1px solid black;
+
+    }
+.header-inside {
+    display: flex;
+    width: 500px;
+    height: 100px;
+    background-color: #90ee90;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.box {
+    flex: 2;
+    background-color: lightgreen;
+    border-left: 1px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.box-right {
+    flex: 5;
+    display: flex;
+    background-color: yellow;
+    border: 1px solid black;
+    width: 250px;
+    padding: 25px 50px;
+}
+.logo {
+    flex: 2;
+    background-color: darkgoldenrod;
+    width: 10px;
+    height: 50px;
+}
+.button {
+    flex: 5;
+    background-color: darkorange;
+    height: 50px;
+    align-items: center;
+}
+.content {
+    height: 1000px;
+    display: flex;
+}
+.distribution {
+    display: flex;
+    flex-direction: column;
+    background-color: hotpink ;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-news {
+    display: flex;
+    justify-content: flex-end;
+    background-color: yellow ;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 200px;
+}
+.politic {
+    border-bottom: 3px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    background-color: lightgreen;
+    height: 100%;
+    width: 20%;
+}
+.content-work {
+    background-color: yellow ;
+    border: 1px solid black;
+    height: 200px;
+}
+.working {
+    background-color: lightgreen;
+    height: 100px;
+    width: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.comments {
+    display: flex;
+    background-color: hotpink;
+    border-left: 1px solid black;
+    width: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.admins {
+    background-color: lightgreen;
+    height: 200px;
+    border-top: 1px solid black;
+    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    flex: 2;
+}
+.user {
+    background-color: yellow;
+    height: 200px;
+    border: 1px solid black;
+    flex: 4;
+}
+.moderators {
+    background-color: lightgreen;
+    height: 200px;
+    flex: 2;
+    display: flex;
+    flex-direction: column-reverse;
+    border-top: 2px solid black;
+    border-right: 1px solid black;
+}
+.priemary {
+    background-color: darkorange;
+    height: 30%;
+    border-bottom: 1px solid black;
+    border-right: 0px solid black;
+}
+.footer {
+    display: flex;
+    height: 100px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.info {
+    background-color: yellow;
+    width: 400px;
+    flex: 3;
+    border: 1px solid black;
+}
+.phone {
+    background-color: lightgreen;
+    width: 400px;
+    flex: 2;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
